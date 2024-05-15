@@ -14,10 +14,13 @@
   }
   .name {
     margin: 1rem;
+    display: flex;
   }
   .container>div {
-    border-top: solid 1px rgb(66, 140, 209);
+    border-bottom: solid 1px rgb(66, 140, 209);
     padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: center;
   }
   .links {
     display: flex;
@@ -42,4 +45,7 @@
   .links>a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     bottom: .25rem;
+  }
+  button{
+    margin-left: 4rem;
   }
